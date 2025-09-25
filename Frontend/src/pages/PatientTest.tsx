@@ -34,6 +34,7 @@ const animalImages = [
 ];
 
 
+
 function getRandomAnimals() {
   const shuffled = [...animalImages].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, 3);
